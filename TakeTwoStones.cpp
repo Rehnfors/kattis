@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
     int y = 2;
     cout << x << endl;
 
-    if (x%2)
+    if (!x%2)
     {
         cout << "Alice Wins!" << endl;
     }
