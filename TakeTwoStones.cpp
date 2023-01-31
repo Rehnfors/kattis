@@ -14,7 +14,6 @@ int main(int argc, char const *argv[])
 {
     int x;
     cin >> x;
-    cout << x << endl;
 
     if (x%2 == 1)
     {
