@@ -12,8 +12,8 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    int x = rand()% 10000000;
-    int y = 2;
+    int x;
+    cin >> x;
     cout << x << endl;
 
     if (x%2 == 1)
