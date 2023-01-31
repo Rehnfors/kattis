@@ -16,13 +16,13 @@ int main(int argc, char const *argv[])
     int y = 2;
     cout << x << endl;
 
-    if (!x%2)
+    if (x%2 == 1)
     {
-        cout << "Alice Wins!" << endl;
+        cout << "Alice" << endl;
     }
     else
     {
-        cout << "Bob Wins!" << endl;
+        cout << "Bob" << endl;
     }
 
 
