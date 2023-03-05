@@ -1,1 +1,1 @@
-# Solutions in C++ for the open.kattis.com issues
+# Solutions in C++ for the open.kattis.com issues (C++)
