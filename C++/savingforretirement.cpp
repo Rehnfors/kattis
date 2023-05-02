@@ -2,19 +2,18 @@
 
 int main(int argc, char const *argv[])
 {
-    int b, br, bs, a, as;
-    int bsaved, asaved;
+    int b, br, bs, a, as, bsaved, asaved;
 
     std::cin >> b >> br >> bs >> a >> as;
 
-    while (asaved <= bsaved)
-    {
-        a++;
-        b++;
-        bs += bsaved;
-        as += asaved;
-    }
+    bsaved = ((br - b) * bs);
 
-    std::cout << asaved;
+   while(asaved <= bsaved)
+   {
+    a++;
+    asaved += as;
+   }
+
+    std::cout << a;
     return 0;
 }
